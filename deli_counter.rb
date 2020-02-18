@@ -2,6 +2,7 @@
 katz_deli = []
 def line(array)
 
+array.each do |number|
 end
 
 def take_a_number(array, string)
