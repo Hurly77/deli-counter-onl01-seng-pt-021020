@@ -9,6 +9,7 @@ else
   katz_deli.each_with_index do |name, number|
    message += "#{number}. #{name}"
 end
+return message
 end
 
 def take_a_number(katz_deli, name)
