@@ -6,7 +6,7 @@ def line (katz_deli)
 
 elsif katz_deli.length < 0
   katz_deli.each_index { |number, name|  }
-   puts "The line is currently:"
+   puts "The line is currently: #{number, name}"
 end
 
 def take_a_number(katz_deli, name)
