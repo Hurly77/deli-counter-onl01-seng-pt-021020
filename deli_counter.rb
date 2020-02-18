@@ -4,14 +4,14 @@ def line (katz_deli)
   if katz_deli.length == 0
   puts "The line is currently empty."
 
-else katz_deli.length < 0
-  katz_deli.each_with_index { |number, name|  }
+else
+  katz_deli.each_with_index do |number, name|
    puts "The line is currently: #{number}"
 end
 
 def take_a_number(katz_deli, name)
 katz_deli.push(name)
-puts "welcome, #{name}. You are number #{katz_deli.length} in line."
+puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
 
 end
 
